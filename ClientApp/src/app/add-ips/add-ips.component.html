@@ -1,0 +1,32 @@
+
+<div>
+    <label> Identificacion:
+      <input [(ngModel)]="ips.id" placeholder="Digite la cedula" type="text"/>
+    </label>
+  </div>
+  
+  
+  <div>
+      <label>Valor Hospitalizacion:
+        <input [(ngModel)]="ips.vHospitalizacion" placeholder="Digite el valor" type="text"/>
+      </label>
+    </div>
+  
+    
+  
+      <div>
+          <label> Salario:
+            <input [(ngModel)]="ips.salario" placeholder="Digite el salario" type="text"/>
+          </label>
+        </div>
+
+        <div>
+            <label>Liquidacion:
+                <input [(ngModel)]="ips.liquidacion" placeholder="Resultado" type="text"/>
+            </label>
+        </div>
+  
+        <div class="form-group">
+            <button (click)="add()" class="btn btn-primary">Agregar</button>
+      </div>
+  
